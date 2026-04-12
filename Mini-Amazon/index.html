@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Amazon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="login-page" class="container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" class="logo" alt="Amazon">
+        <div class="auth-box">
+            <h1>Sign-In</h1>
+            <form id="login-form">
+                <label>Enter Email_id </label>
+                <input type="email" id="email" required>
+                <label>Enter Password </label>
+                <input type="password" id="password" required>
+                <button type="submit" class="btn-primary">Continue</button>
+            </form>
+            <p class="terms">By continuing, you agree to  Mini Amazon's Conditions of Use.</p>
+        </div>
+    </div>
+
+    <div id="product-page" class="hidden">
+        <header>
+            <img src="https://white.logodownload.org/wp-content/uploads/2020/11/amazon-white-logo.png" class="nav-logo">
+            <div class="search-bar">
+                <input type="text" placeholder="Search Amazon.in">
+                <button>🔍</button>
+            </div>
+            <button id="logout-btn">Sign Out</button>
+        </header>
+
+        <main class="product-grid">
+            </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
