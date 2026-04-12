@@ -1,4 +1,4 @@
-# 🛒 Mini Amazon Clone
+# 🛒 Mini Amazon -
 
 A clean and responsive **Amazon UI Clone** built with HTML and CSS.
 
